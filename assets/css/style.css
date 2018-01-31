@@ -9,7 +9,6 @@ hgroup { height: 100% }
                   position: inline; float: left; height: 100% }
 .header-content { position: inline; float: right; height: 100% }
 main { background-color: #cccccc; border-color: #dddddd; height: 100%; }
-article { height: 100%; }
 #Biography { clear: both; background-color: #ffffff; border-color: #dddddd; float : left; width:650px; margin: 5px; padding: 5px; }
 #Portfolio { clear: both; background-color: #ffffff; border-color: #dddddd; float : left; width:650px; margin: 5px; padding: 5px; }
 #Contact { clear: both; background-color: #ffffff; border-color: #dddddd; float : left; width:650px; margin: 5px; padding: 5px; }
@@ -20,5 +19,5 @@ article { height: 100%; }
 .Connect { position: inline; background-color : #ffffff; border-color: #dddddd; float: right; width:270px; margin: 5px; padding: 5px; }
 .contact-item { height:28px; width:28px; }
 #contact-message { max-width: 100%; min-height: 35%; vertical-align: text-top; }
-#submit-button { background-color: #4aaaa5; color: #ffffff; font-size: 26px; min-height: 50px; min-width: 120px; text-align: center; }
+#submit-button { background-color: #4aaaa5; color: #ffffff; font-size: 26px; min-height: 50px; min-width: 120px; text-align: center; margin: 5px; }
 footer { clear: both; background-color : #666666; color : #cccccc; text-align : center; margin-top: auto; margin-bottom: auto; width:100%; min-height: 80px; }
