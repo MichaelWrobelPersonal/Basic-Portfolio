@@ -2,6 +2,7 @@ li { display: inline; }
 :link { color : #4aaaa5; }
 :visited { color : #777777; }
 h2 { text-indent: 25px; }
+div { padding: 3px }
 body { color: #777777; font-family: Arial, 'Helvetica Neue', Helvetica,  sans-serif; width:960px;
        background: url("../images/concrete_seamless.png"); }
 header { background-color : #ffffff; font-family: Georgia, Times, 'Times New Roman',  serif; width:100%; height: 80px; }
@@ -18,7 +19,7 @@ main { background-color: #cccccc; border-color: #dddddd; height: 100%; }
 #Contact { clear: both; background-color: #ffffff; border-color: #dddddd; float : left; width:650px; margin: 5px; padding: 5px; }
 .main-title { text-align: left; color: #4aaaa5; clear: both; }
 #main-picture { width: 125px; height: 125px; margin: 10px; float: left;}
-.main-content { text-align: left; }
+.main-content { text-align: left }
 .Connect { position: inline; background-color : #ffffff; border-color: #dddddd; float: right; width:270px; margin: 5px; padding: 5px; }
 .contact-icon { height:64px; width:64px; }
 #contact-message { max-width: 100%; min-height: 35%; vertical-align: text-top; }
@@ -27,7 +28,7 @@ main { background-color: #cccccc; border-color: #dddddd; height: 100%; }
 #OlympicMan-picture {height: 25%; width: 25%; }
 
 /* Portfolio */
-#MyWordPressSite-picture {height: 25%; width: 25%; }
+#MyWordPressSite-picture {height: 25%; width: 33%; }
 #SubArcCellWelder-picture {height: 50%; width: 50%;}
 #PGC5000-picture {height: 50%; width: 50%; }
 #PPA_Batch-picture {height: 75%; width: 75%; }
@@ -53,14 +54,6 @@ footer { clear: both; background-color : #666666; color : #cccccc;  width:100%; 
 .footer-content { vertical-align: middle; text-align: center; margin-top:auto; margin-bottom: auto }
 
 /* portfolio */
-.personal {
-    position: relative;
-    float: left;
-    width: 454px;
-    margin: 20px 0 25px;
-    overflow: auto;
-  }
-
 .work {
     position: relative;
     float: left;
