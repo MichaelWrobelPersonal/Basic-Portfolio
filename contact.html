@@ -7,6 +7,14 @@
     <title>Hi There!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script type="text/javascript">
+        function sendMail() {
+          var link = 'mailto:michaelrwrobel@sbcglobal.net?subject=Message from '
+                   +document.getElementById('contact-name').value
+                   +'&body='+document.getElementById('contact-message').value;
+          window.location.href = link;
+      }
+    </script>
 </head>
 <body>
     <header>
@@ -43,7 +51,7 @@
                 <label>Message</label><br>
                     <input id="contact-message" type="textarea" name="message" rows="8" size="640" maxlength="2048"; /><br>
                 <!-- Submit button -->
-                <input id="submit-button" type="submit" name="submit" value="submit";/>    
+                <input onclick="sendMail(); return false;" id="submit-button" type="submit" name="submit" value="submit";/>    
             </form>
         </section>
     </article>
